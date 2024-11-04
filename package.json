@@ -1,5 +1,5 @@
 {
-  "name": "extension-test",
+  "name": "extension-monorepo-test",
   "version": "0.0.0",
   "description": "Extension test",
   "private": true,

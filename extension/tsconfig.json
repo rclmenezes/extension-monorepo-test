@@ -1,4 +1,4 @@
 {
-  "extends": "@extension-test/tsconfig/base.json",
+  "extends": "@extension-monorepo-test/tsconfig/base.json",
   "include": ["./src", "action"]
 }

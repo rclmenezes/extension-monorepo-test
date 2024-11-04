@@ -1,6 +1,6 @@
 // Neither of these imports work!
 //
-// import { welcomeMessage } from "@extension-test/sdk";
+// import { welcomeMessage } from "@extension-monorepo-test/sdk";
 import { welcomeMessage } from "../scripts/sdk";
 
 function ActionApp() {

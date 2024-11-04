@@ -1,5 +1,5 @@
 {
-  "name": "@extension-test/tsconfig",
+  "name": "@extension-monorepo-test/tsconfig",
   "description": "Default tsconfig for Hammuarbi",
   "version": "0.0.0",
   "private": true,

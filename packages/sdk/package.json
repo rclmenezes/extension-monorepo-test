@@ -1,7 +1,7 @@
 {
-  "name": "@extension-test/sdk",
+  "name": "@extension-monorepo-test/sdk",
   "version": "0.0.0",
-  "description": "extension-test sdk",
+  "description": "extension-monorepo-test sdk",
   "private": true,
   "type": "module",
   "exports": "./index.ts",
@@ -9,7 +9,7 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
-    "@extension-test/tsconfig": "workspace:*",
+    "@extension-monorepo-test/tsconfig": "workspace:*",
     "@types/node": "^20.3.1"
   }
 }
