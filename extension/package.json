@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "@extension-test/extension",
+  "description": "An Extension.js example.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "@extension-test/sdk": "workspace:^",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "swc-loader": "^0.2.6"
+  },
+  "devDependencies": {
+    "@extension-test/tsconfig": "workspace:^",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "extension": "v2.0.0-beta.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "dev": "extension dev",
+    "start": "extension start",
+    "build": "extension build",
+    "test": "dotenvx run --env-file=.env -- tsx testScripts.ts",
+    "typecheck": "tsc --noEmit"
+  }
+}

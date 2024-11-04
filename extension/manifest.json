@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest.json",
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "name": "extension-test",
+  "description": "Extension test",
+  "permissions": [],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_icon": {},
+    "default_title": "Extension test",
+    "default_popup": "action/index.html"
+  },
+  "author": "Rodrigo Menezes"
+}

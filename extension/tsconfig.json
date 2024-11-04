@@ -1,0 +1,4 @@
+{
+  "extends": "@extension-test/tsconfig/base.json",
+  "include": ["./src", "action"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "extension-test",
+  "version": "0.0.0",
+  "description": "Extension test",
+  "private": true,
+  "engines": {
+    "node": ">=v20.17.0"
+  },
+  "packageManager": "pnpm@8.10.2",
+  "workspaces": [
+    "packages/*",
+    "services/*",
+    "extension"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
